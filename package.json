@@ -1,0 +1,28 @@
+"scripts": {
+  "test": "echo \"Error: no test specified\" && exit 1",
+  "start": "node server.js"
+},
+
+
+{
+  "name": "burger",
+  "version": "1.0.0",
+  "description": "(Restaurant App)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hence07/burger.git"
+  },
+  "author": "Prudence Codjia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hence07/burger/issues"
+  },
+  "homepage": "https://github.com/Hence07/burger#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
