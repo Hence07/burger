@@ -25,7 +25,7 @@ function ORM(burgers) {
             })
         },
 
-        this.update = function (burger_name, id) {
+        this.updateOne = function (burger_name, id) {
             const sql = `UPDATE ?? SET sleepy = ? WHERE id = ?`;
 
             return new Promise(function (resolve, reject) {
