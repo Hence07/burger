@@ -1,5 +1,3 @@
-
-
 {
   "name": "burger",
   "version": "1.0.0",
@@ -20,6 +18,8 @@
   },
   "homepage": "https://github.com/Hence07/burger#readme",
   "dependencies": {
-    "express": "^4.16.4"
+    "express": "^4.16.4",
+    "express-handlebars": "^3.0.0",
+    "mysql": "^2.16.0"
   }
 }
